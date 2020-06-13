@@ -1,0 +1,66 @@
+* {
+    color: black;
+}
+.edu_heading {
+    margin-top: -30px;
+}
+
+.project_item {
+    margin-top: -2px;
+}
+.description {
+    margin-top: -20px;
+}
+
+.project_log_img {
+    width: 20%;
+    margin-left: 1000px;
+    margin-top: -200px;
+}
+
+.project-link:hover{
+    border: solid 0px black;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+       min-width:920px; 
+    } 
+    .edu_heading {
+        font-size: large;
+    }
+    .project_item{
+        font-size: small;
+    }
+    .status{
+        font-size: medium;
+    }
+    h4{
+        font-size: smaller;
+    }
+    .project_log_img{
+        margin-left: 80%;
+    }
+
+}
+
+/* MOBILE SCREEN */
+@media only screen and (max-width: 600px) { 
+    .status{
+        font-size: small;
+    }
+    h4{
+        font-size: small;
+    }
+    .project_log_img{
+        display: none;
+    }
+    .project_item{
+        width: 40%;
+    }
+
+    .under{
+        width: 40%;
+    }
+
+}
